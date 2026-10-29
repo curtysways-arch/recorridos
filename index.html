@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recorridos — app para transporte escolar</title>
+  <meta name="description" content="Recorridos: app Android para organizar rutas de transporte escolar, asistencia y pagos, con respaldo en tu propio Google Sheets.">
+  <style>
+    :root { --pri: #14574a; --ink: #17221f; --ink2: #4f5f5a; --bg: #f3f5f4; --line: #e3e8e6; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--ink); background: var(--bg); line-height: 1.6; }
+    header { background: var(--pri); color: #fff; padding: 56px 20px 48px; }
+    .wrap { max-width: 760px; margin: 0 auto; }
+    h1 { font-size: 40px; margin: 0 0 8px; letter-spacing: -.02em; }
+    header p { font-size: 19px; margin: 0; color: #fff; max-width: 560px; }
+    main { padding: 36px 20px 24px; }
+    h2 { font-size: 22px; margin: 32px 0 12px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+    .item { background: #fff; border-radius: 14px; padding: 16px 18px; border: 1px solid var(--line); }
+    .item b { display: block; margin-bottom: 4px; }
+    .item span { color: var(--ink2); font-size: 15px; }
+    p { color: var(--ink2); }
+    a { color: var(--pri); }
+    footer { padding: 24px 20px 40px; font-size: 14px; color: var(--ink2); border-top: 1px solid var(--line); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Recorridos</h1>
+      <p>App Android para conductores de transporte escolar: organiza a tus pasajeros, calcula la mejor ruta del día y lleva el control de los pagos.</p>
+    </div>
+  </header>
+  <main class="wrap">
+    <h2>Qué hace</h2>
+    <div class="grid">
+      <div class="item"><b>Pasajeros</b><span>Nombre, representante, teléfono, foto, colegio, turno y ubicación de cada niño.</span></div>
+      <div class="item"><b>Mejor ruta</b><span>Ordena las paradas por calles reales según la hora de entrada y salida de cada colegio.</span></div>
+      <div class="item"><b>Asistencia</b><span>Marca quién viaja cada día; los ausentes salen de la ruta.</span></div>
+      <div class="item"><b>Pagos</b><span>Convenios mensuales, quincenales, semanales o por viaje, con saldo automático y recordatorios.</span></div>
+      <div class="item"><b>Gastos del auto</b><span>Combustible y mantenimiento para conocer la ganancia real del mes.</span></div>
+      <div class="item"><b>Tus datos son tuyos</b><span>Todo vive en tu teléfono y en una hoja de Google Sheets de tu propia cuenta.</span></div>
+    </div>
+
+    <h2>Cómo usa tu cuenta de Google</h2>
+    <p>Al iniciar sesión con Google, la app crea en tu Google Drive una hoja de cálculo llamada «Recorridos» y una carpeta «Recorridos - Fotos». Solo puede ver y modificar esos archivos que ella misma creó; no tiene acceso al resto de tu Drive. No hay servidores propios: la información va directamente de tu teléfono a tu cuenta de Google.</p>
+    <p>Detalles completos en la <a href="privacidad.html">política de privacidad</a>.</p>
+  </main>
+  <footer>
+    <div class="wrap">Recorridos · <a href="privacidad.html">Política de privacidad</a> · Contacto: <a href="mailto:citioxsaas@gmail.com">citioxsaas@gmail.com</a></div>
+  </footer>
+</body>
+</html>
